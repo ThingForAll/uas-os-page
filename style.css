@@ -128,7 +128,7 @@ body{
 .timer-card{
   position:fixed;
   bottom:25px;
-  left:90%;
+  left:50%;
   transform:translateX(-50%);
   width:90%; max-width:380px;
   background:rgba(255,255,255,0.07);
