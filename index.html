@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>UAS Sistem Operasi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- BLUR DEKORASI -->
+  <div class="blur-ball blur-left"></div>
+  <div class="blur-ball blur-right"></div>
+
+  <!-- HEADER CARD -->
+  <div class="header-card">
+    <h1 class="title">UAS Sistem Operasi</h1>
+    <p class="subtitle">Hamid Albar • IM24B • 2025</p>
+
+    <a id="backLink" class="back-btn" href="https://github.com/username" target="_blank">← Back</a>
+
+    <div class="center-label">SOAL</div>
+  </div>
+
+  <!-- LIST SOAL -->
+  <div class="list-container">
+    <button class="soal" data-id="1">1 • Layered vs Client-Server</button>
+    <button class="soal" data-id="2">2 • Siklus Proses & PCB</button>
+    <button class="soal" data-id="3">3 • Thread & Multithreading</button>
+    <button class="soal" data-id="4">4 • CPU Scheduling</button>
+    <button class="soal" data-id="5">5 • Critical Section</button>
+    <button class="soal" data-id="6">6 • Deadlock</button>
+    <button class="soal" data-id="7">7 • Manajemen Penyimpanan</button>
+    <button class="soal" data-id="8">8 • Alokasi File</button>
+  </div>
+
+  <div class="modal" id="modal" aria-hidden="true">
+
+  <div class="modal-content">
+
+    <!-- HEADER FIXED -->
+    <div class="modal-header-fixed">
+      <button id="closeBtn" class="close-btn">&times;</button>
+      <h2 id="modalTitle"></h2>
+    </div>
+
+    <!-- AREA SCROLL JAWABAN -->
+    <div class="modal-body-scroll" id="modalBody"></div>
+
+  </div>
+
+  <!-- MINI TIMER CARD -->
+  <div class="timer-card" id="timerCard">
+    <div class="timer-line">
+      <span class="timer-icon">⏳</span>
+      <span id="timerValue">60</span> <span class="detik-label">detik</span>
+    </div>
+    <div class="mini-progress">
+      <div class="mini-progress-fill" id="miniProgressFill"></div>
+    </div>
+  </div>
+
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
