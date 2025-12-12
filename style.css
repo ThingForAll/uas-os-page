@@ -122,9 +122,7 @@ body{
   margin:10px 0;
 }
 
-/* =====================================
-      MINI TIMER POPUP (fixed)
-===================================== */
+/* MINI TIMER POPUP (fixed) */
 .timer-card{
   position:fixed;
   bottom:20px;
